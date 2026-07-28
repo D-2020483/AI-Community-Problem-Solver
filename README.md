@@ -179,5 +179,18 @@ The Gap Solved:
 It introduces end-to-end real-time tracking. Citizens get status updates from submission to resolution, including visual proof (the field officer must upload a completion photo before closing the ticket).
 
 ---
+### 🏗️ High-Level Architecture
+
+<img width="1382" height="808" alt="High_Level_Architecture" src="https://github.com/user-attachments/assets/4d05ad93-25e4-4355-bd19-f793f7351f92" />
+
+---
+### 📱 Low-Fidelity Wireframes
+
+https://www.figma.com/make/WFoXSbF7GLd2JWiRZk8tBf/Low-Fidelity-Wireframes-for-App?t=iNF0ueVJ7SLTmrEA-20&fullscreen=1
+
+---
+
+
+
 
 
