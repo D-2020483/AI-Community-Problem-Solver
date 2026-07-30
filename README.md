@@ -189,6 +189,11 @@ It introduces end-to-end real-time tracking. Citizens get status updates from su
 https://www.figma.com/make/WFoXSbF7GLd2JWiRZk8tBf/Low-Fidelity-Wireframes-for-App?t=iNF0ueVJ7SLTmrEA-20&fullscreen=1
 
 ---
+### 🎨 High-Fidelity App Design
+
+https://www.figma.com/make/WFoXSbF7GLd2JWiRZk8tBf/Low-Fidelity-Wireframes-for-App?t=Z9yZ2fVFK4jaWxcc-20&fullscreen=1
+
+---
 
 
 
