@@ -2,7 +2,7 @@
 ### 📌 Project Overview
 AI Community problem solver is an AI-Powered web application designed to improve how citizens report community issues and how local authorities manage and resolve them.
 
-Citizens can report an issues by updating an image, adding short discription, and sharing the location.The AI analyzes the image, identifies the issue category, assigns a priority level, and forwards the report to the appropriate authority. Authorities can assign field officers, track progress, and update the report until it is resolved.
+Citizens can report an issues by updating an image, adding short discription, and sharing the location.The AI analyzes the image, identifies the issue category, assigns a priority level, confidence score and appropriate authority. Authorities can assign field officers, track progress, and update the report until it is resolved.
 
 The main goal of the system is to make community issue reporting faster, more accurate, and transparent for both citizens and authorities.
 
