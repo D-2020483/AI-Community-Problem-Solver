@@ -186,7 +186,7 @@ https://claude.ai/public/artifacts/23f1b358-f3a8-4aa0-9f04-8067ea6bf459
 ---
 ### 📱 Low-Fidelity Wireframes 
 
-https://www.figma.com/make/NuUp8Vx8xn1dec1qpYd3XO/Preview-low-fidelity-wireframe?p=f&t=IDVMA6ucZshCxxkP-0
+https://www.figma.com/make/NuUp8Vx8xn1dec1qpYd3XO/Preview-low-fidelity-wireframe?code-node-id=0-6&p=f&t=474O74YAa88FfxsT-0&fullscreen=1
 
 ---
 ### 🎨 High-Fidelity App Design
