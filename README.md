@@ -332,7 +332,53 @@ Make sure you have the following installed:
 - npm run dev
 - Frontend runs at: http://localhost:5173
 
+---
 
+⚙️ Backend Setup
+
+👉 Clone the Repository
+
+- git clone https://github.com/D-2020483/AI-community-backend.git
+- cd AI-community-backend
+- 
+👉 Install Dependencies
+
+- npm install
+- Optional (install by name):
+- npm install express cors dotenv pg zod @prisma/client @prisma/adapter-pg @supabase/supabase-js nodemailer
+- npm install -D nodemon prisma @types/node
+  
+👉 Environment File
+
+- Create a .env file in the project root and fill in your own values (do not share real keys):
+- NODE_ENV=development
+- PORT=5000
+- FRONTEND_URL=http://localhost:5173
+- DATABASE_URL=your_postgresql_connection_string
+- SUPABASE_URL=your_supabase_project_url
+- SUPABASE_ANON_KEY=your_supabase_anon_key
+- SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+- EMAIL_HOST=
+- EMAIL_PORT=587
+- EMAIL_USER=
+- EMAIL_PASS=
+- EMAIL_FROM=Civic Link <yourmail>
+- DATABASE_URL is the Postgres connection string (from Supabase).
+- SUPABASE_URL and SUPABASE_ANON_KEY are required for auth.
+- SUPABASE_SERVICE_ROLE_KEY is required only if you seed an admin user.
+  
+👉 Generate Prisma Client
+- npx prisma generate
+  
+👉 (Optional) Seed the first admin
+- node scripts/seedAdmin.js admin@civiclink.gov "Admin Name" "YourSecurePassword"
+
+👉 Run the Backend
+
+- npm run dev
+- Backend runs at: http://localhost:5000
+
+---
 
 
 
