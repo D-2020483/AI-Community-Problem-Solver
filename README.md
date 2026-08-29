@@ -287,3 +287,51 @@ Administrators can:
 - Frontend Deployed Link:[Frontend Deployed Link](https://civic-link-frontkend.vercel.app/login)
 - Backend Repo:[Backend Deployed Link](https://civic-link-backend.onrender.com)
 - AI agent Repo:[AI-Agent-Deployed Link](https://civic-link-ai-agent.onrender.com)
+
+---
+### 🛠️ Setup Instructions
+Make sure you have the following installed:
+
+Node.js: v24.3.0
+npm (Node Package Manager): v10.5.1
+Python: v3.11 or later (needed for the AI agent)
+Git
+A PostgreSQL database (Supabase Postgres is what this project uses)
+Run the backend, then the AI agent, then the frontend. Each service needs its own terminal.
+
+---
+
+🖥️ Frontend Setup
+👉 Clone the Repository
+
+Create a folder anywhere on your machine.
+Open a terminal inside that folder.
+Run the following commands to clone the frontend repository:
+git clone https://github.com/D-2020483/AI-community-frontend.git
+cd AI-community-frontend
+
+👉 Install Dependencies
+
+Copy the commands below and paste them in your terminal:
+npm install
+Optional (only if you want to install packages by name as well):
+npm install react react-dom react-router-dom leaflet react-leaflet lucide-react recharts react-hook-form react-hot-toast class-variance-authority clsx tailwind-merge tailwindcss @tailwindcss/vite @base-ui/react @fontsource-variable/geist shadcn tw-animate-css
+npm install -D vite @vitejs/plugin-react eslint @eslint/js eslint-plugin-react-hooks eslint-plugin-react-refresh globals @types/react @types/react-dom @babel/core babel-plugin-react-compiler @rolldown/plugin-babel
+
+👉 Environment File
+
+Create a file named .env.development in the project root and add:
+VITE_API_URL=/api
+VITE_AI_SERVICE_URL=http://localhost:8001
+VITE_DEV_PROXY_TARGET=http://localhost:5000
+Vite proxies /api to the backend on port 5000. If the env file is missing, local defaults still point at the local backend and agent.
+
+👉 Run the Frontend
+
+npm run dev
+Frontend runs at: http://localhost:5173
+
+
+
+
+
