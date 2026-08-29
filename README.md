@@ -274,5 +274,3 @@ Administrators can:
 - Frontend Deployed Link:[Frontend Deployed Link](https://civic-link-frontkend.vercel.app/login)
 - Backend Repo:[Backend Deployed Link](https://civic-link-backend.onrender.com)
 - AI agent Repo:[AI-Agent-Deployed Link](https://civic-link-ai-agent.onrender.com)
-
----
