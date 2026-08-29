@@ -184,8 +184,11 @@ It introduces end-to-end real-time tracking. Citizens get status updates from su
 https://claude.ai/public/artifacts/23f1b358-f3a8-4aa0-9f04-8067ea6bf459
 
 ---
-
 ### System Architecture
+(Old)
+https://claude.ai/public/artifacts/f566ebe2-132e-4f53-b2d2-1688b9319cf1
+
+(Updated)
 <img width="1280" height="920" alt="civic-link-architecture (1)" src="https://github.com/user-attachments/assets/d1ef6303-a66e-4913-8219-07f16fae397d" />
 
 
