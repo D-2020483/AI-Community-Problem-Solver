@@ -186,8 +186,10 @@ https://claude.ai/public/artifacts/23f1b358-f3a8-4aa0-9f04-8067ea6bf459
 ---
 
 ### System Architecture
+<img width="1280" height="920" alt="civic-link-architecture (1)" src="https://github.com/user-attachments/assets/d1ef6303-a66e-4913-8219-07f16fae397d" />
 
-D:\AI_Launch_Pad\Community Solver\docs\civic-link-architecture.png
+
+---
 
 ### 📱 Low-Fidelity Wireframes 
 
