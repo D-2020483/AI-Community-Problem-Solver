@@ -184,7 +184,7 @@ It introduces end-to-end real-time tracking. Citizens get status updates from su
 https://claude.ai/public/artifacts/23f1b358-f3a8-4aa0-9f04-8067ea6bf459
 
 ---
-### System Architecture
+### 🎯 System Architecture
 
 (Old)
 
