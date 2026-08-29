@@ -380,5 +380,54 @@ Make sure you have the following installed:
 
 ---
 
+🤖 AI Agent Setup
+
+👉 Clone the Repository
+
+- git clone https://github.com/D-2020483/AI-community-agent.git
+- cd AI-community-agent
+- 
+👉 Create a Virtual Environment and Install Dependencies
+
+- Windows (PowerShell):
+
+- python -m venv .venv
+- .\.venv\Scripts\Activate.ps1
+- pip install -r requirements.txt
+
+macOS / Linux:
+
+- python3 -m venv .venv
+- source .venv/bin/activate
+- pip install -r requirements.txt
+- Optional (install by name):
+- pip install "fastapi>=0.110" "uvicorn[standard]>=0.29" "openai>=1.30" "python-dotenv>=1.0" "pydantic>=2.6"
+  
+👉 Environment File
+
+- Copy the example file and add your OpenAI key:
+- copy .env.example .env
+- On macOS / Linux use cp .env.example .env.
+
+- Open .env and set:
+- OPENAI_API_KEY=your_openai_api_key
+- OPENAI_CHAT_MODEL=gpt-4o-mini
+- OPENAI_VISION_MODEL=gpt-4o-mini
+  
+👉 Run the AI Agent
+
+- uvicorn main:app --reload --port 8001
+- AI agent runs at: http://localhost:8001
+
+---
+
+✅ How to Start the Full App
+
+Open three terminals and run in this order:
+
+- Backend → npm run dev (port 5000)
+- AI agent → uvicorn main:app --reload --port 8001 (port 8001)
+- Frontend → npm run dev (port 5173)
+- Then open http://localhost:5173 in the browser.
 
 
